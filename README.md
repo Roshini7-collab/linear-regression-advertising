@@ -34,6 +34,7 @@ linear_regression_advertising/
 ├── setup.py
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## 📊 Dataset
