@@ -10,31 +10,30 @@ The project is suitable for:
 - GitHub portfolio demonstration
 
 ---
+## 📁 Project Structure
 
-## 📂 Project Structure
-
+```text
 linear_regression_advertising/
 │
-├── linear_regression/ # Core Python package
-│ ├── data_loader.py
-│ ├── model.py
-│ ├── evaluation.py
-│ ├── visualization.py
-│ └── init.py
+├── linear_regression/        # Core Python package
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── model.py
+│   ├── evaluation.py
+│   └── visualization.py
 │
 ├── scripts/
-│ └── run_regression.py # End-to-end pipeline script
+│   └── run_regression.py     # End-to-end pipeline script
 │
 ├── notebooks/
-│ └── LinearRegression.ipynb
+│   └── LinearRegression.ipynb
 │
 ├── data/
-│ └── advertising.csv
+│   └── advertising.csv
 │
 ├── setup.py
 ├── requirements.txt
 └── README.md
-
 ---
 
 ## 📊 Dataset
